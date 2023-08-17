@@ -162,3 +162,58 @@ button:hover {
 }
 
 /* ... (rest of the CSS code) ... */
+
+@media (max-width: 768px) {
+    /* Header Styling for Mobile */
+    header {
+        padding: 0.5rem 1rem;
+    }
+
+    /* Body Styling for Mobile */
+    body {
+        background-image: none;
+        background-color: #000;
+    }
+
+    /* Label Styling for Mobile */
+    label {
+        margin-bottom: 0.25rem;
+        margin-right: 0.25rem;
+    }
+
+    /* Input Styling for Mobile */
+    input[type="number"] {
+        width: 40px;
+    }
+
+    /* Button Styling for Mobile */
+    button {
+        padding: 0.25rem 0.5rem;
+    }
+
+    /* Add Semester Button Styling for Mobile */
+    #add-semester-button,
+    #reset-button {
+        padding: 0.25rem 0.5rem;
+        margin-left: 0.5rem;
+        border-radius: 4px;
+    }
+
+    /* Semester Field Styling for Mobile */
+    #cgpaForm,
+    .semester-field {
+        flex-direction: column;
+    }
+
+    .semester-field input[type="number"] {
+        width: 100%;
+    }
+
+    /* Result Container Styling for Mobile */
+    .result-container {
+        flex-direction: column;
+        margin-top: 0.5rem;
+        padding-top: 0.5rem;
+        border-top: none;
+    }
+}
